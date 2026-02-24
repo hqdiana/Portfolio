@@ -1,0 +1,108 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.navBar {
+    display: grid;
+    grid-template-columns: 60% 35% 5%;
+    border: 2px solid orange;
+    align-items: center;
+    position: fixed;
+    width: 100%;
+    height: 8dvh;
+    z-index: 1;
+    background-color: rgb(255, 255, 255);
+    padding: 0 80px;
+}
+
+.navMenu {
+    justify-content: end;
+    border: 2px solid red;
+}
+
+.logo {
+    height: 50px;
+    width: 50px;
+    border: 2px solid orange;
+}
+
+.navMenu > ul {
+    display: flex;
+    gap: 15px;
+    list-style: none;
+    justify-content: end;
+}
+
+.theme {
+    text-align: right;
+    border: 2px solid orange;
+    margin-left: 30px;
+    justify-content: end;
+}
+
+.heroContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100dvh;
+    border: 2px solid green;
+    text-align: center;
+}
+
+.skillsContainer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100dvh;
+    border: 2px solid blue;
+    text-align: center;
+}
+
+.projectsContainer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100dvh;
+    border: 2px solid green;
+    text-align: center;
+}
+
+.aboutContainer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100dvh;
+    border: 2px solid blue;
+    text-align: center;
+}
+
+.footer{
+    display: grid;
+    grid-template-columns: 34% 33% 33%;
+    height: 10dvh;
+    align-items: center;
+    border: 2px solid green;
+    text-align: center;
+    padding: 0 80px;
+}
+
+.copyright {
+    text-align: right;
+}
+
+.footerLogo {
+    height: 50px;
+    width: 50px;
+    border: 2px solid orange;
+}
+
+
+
+
+
