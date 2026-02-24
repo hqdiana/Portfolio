@@ -1,3 +1,48 @@
+/* VARIABLES */
+    :root {
+    /* font size + weight */
+        --sizeXSmall:0.5rem;
+        --sizeSmall: 1rem;
+        --sizeMedium: 1.2rem;
+        --sizeLarge: 1.5rem;
+        --sizeXLarge: 2.5rem;
+        --sizeXXL: 4rem;
+
+        --thin: 100;
+        --semibold: 400;
+        --bold: 600;
+
+    /* colors */
+        --primaryDark:#314D45;
+        --primaryMedium:#5AAD7F;
+        --primaryLight:#91CA98;
+
+        --secondaryDark:#091224;
+        --secondaryMedium:#0F2832;
+        --secondaryLight:#5AAD7F;
+
+        --accentDark:#E6B855;
+        --accentLigth:#ffe58e;
+
+        --whiteColor:#f3e6d9;
+        
+    /* font families*/
+        --accent: "Sour Gummy", sans-serif;
+        --title: "David Libre", serif;
+        --para: "Fira Code", monospace;
+
+    /* border radiuses */
+        --small:20px;
+        --medium:30px;
+        --round: 50px;
+    /* button styles */
+        --buttonLight:
+        --buttonDark:
+
+        --hoverLight:
+        --hoverDark:
+    }
+
 * {
     box-sizing: border-box;
 }
